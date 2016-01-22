@@ -8,6 +8,6 @@ namespace OfficePool.Domain
 {
     public class Team
     {
-        public int TeamID { get; set; }
+        public int TeamId { get; set; }
     }
 }
