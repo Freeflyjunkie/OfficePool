@@ -8,7 +8,7 @@ namespace OfficePool.Domain
 {
         public class Game
         {
-            public int GameID { get; set; }
+            public int GameId { get; set; }
             public int Favorite { get; set; }
             public decimal Spread { get; set; }
             public int Underdog { get; set; }
