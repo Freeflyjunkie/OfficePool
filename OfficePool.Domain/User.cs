@@ -9,12 +9,11 @@ namespace OfficePool.Domain
     public class User
     {
         public int UserId { get; set; }
-        public string Name { get; set; }
-        public int DeptId { get; set; }
-        public string LoginId { get; set; }
-
-
-
-
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int LoginId { get; set; }        
+        public int DepartmentId { get; set; }
+        public virtual Login Login { get; set; }
+        public virtual Department Department { get; set; }
     }
 }
