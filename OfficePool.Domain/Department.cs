@@ -8,6 +8,9 @@ namespace OfficePool.Domain
 {
     public class Department
     {
-        public string department { get; set; }
+        public string department { get; set;}        
+        public int UserId { get; set;}
+        public string Name { get; set;}
+
     }
 }
