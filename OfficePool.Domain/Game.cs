@@ -9,9 +9,9 @@ namespace OfficePool.Domain
         public class Game
         {
             public int GameId { get; set; }
-            public int Favorite { get; set; }
+            public int FavoredTeam { get; set; }
             public decimal Spread { get; set; }
-            public int Underdog { get; set; }
+            public int UnderdogTeam { get; set; }
             public DateTime GameDate { get; set; }
             public bool IsHomeTeamFavorite { get; set; }
             public int TotalPoints { get; set; }
