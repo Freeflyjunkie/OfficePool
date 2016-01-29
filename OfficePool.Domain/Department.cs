@@ -11,6 +11,6 @@ namespace OfficePool.Domain
         public int DepartmentId { get; set;}  
         public string Name { get; set;}
         // will entity framework know how to build my Users?
-        public virtual List<User> Users { get; set; } 
+        public virtual ICollection<User> Users { get; set; } 
     }
 }
