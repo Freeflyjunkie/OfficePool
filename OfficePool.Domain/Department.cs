@@ -9,8 +9,7 @@ namespace OfficePool.Domain
     public class Department
     {
         public int DepartmentId { get; set;}  
-        public string Name { get; set;}
-        // will entity framework know how to build my Users?
+        public string Name { get; set;}        
         public virtual ICollection<User> Users { get; set; } 
     }
 }
