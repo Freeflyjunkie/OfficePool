@@ -11,7 +11,7 @@ namespace OfficePool.Domain
         public int UserId { get; set; }
         public string Name { get; set; }
         public int DeptId { get; set; }
-        public string Login { get; set; }
+        public string LoginId { get; set; }
 
 
 

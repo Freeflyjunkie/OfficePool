@@ -8,6 +8,6 @@ namespace OfficePool.Domain
 {
     public class Login
     {
-        public string Login { get; set;}
+        public string LoginId { get; set;}
     }
 }
