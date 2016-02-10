@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using OfficePool.Domain;
-
 namespace OfficePool.Repository.Migrations
 {
     using System;
@@ -20,26 +17,15 @@ namespace OfficePool.Repository.Migrations
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.            
-
-            var departments = new List<Department>
-            {
-                new Department
-                {
-                    Name = "Finance"
-                },
-                new Department
-                {
-                    Name = "Information Technology"
-                },
-                new Department
-                {
-                    Name = "Membership"
-                }
-            };
-
-            departments.ForEach(d => context.Departments.AddOrUpdate(di => di.Name, d));
-            context.SaveChanges();
+            //  to avoid creating duplicate seed data. E.g.
+            //
+            //    context.People.AddOrUpdate(
+            //      p => p.FullName,
+            //      new Person { FullName = "Andrew Peters" },
+            //      new Person { FullName = "Brice Lambson" },
+            //      new Person { FullName = "Rowan Miller" }
+            //    );
+            //
         }
     }
 }
