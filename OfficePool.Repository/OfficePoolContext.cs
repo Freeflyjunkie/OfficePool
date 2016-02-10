@@ -18,5 +18,7 @@ namespace OfficePool.Repository
         public DbSet<User> Users { get; set; }
         public DbSet<Login> Logins { get; set; }
         public DbSet<Department> Departments { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Team> Teams { get; set; }
     }
 }

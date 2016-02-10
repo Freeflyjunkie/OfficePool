@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201602052034409_Dorothy.Designer.cs">
       <DependentUpon>201602052034409_Dorothy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602102319339_Eric1.cs" />
+    <Compile Include="Migrations\201602102319339_Eric1.Designer.cs">
+      <DependentUpon>201602102319339_Eric1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OfficePoolContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602052034409_Dorothy.resx">
       <DependentUpon>201602052034409_Dorothy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602102319339_Eric1.resx">
+      <DependentUpon>201602102319339_Eric1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
