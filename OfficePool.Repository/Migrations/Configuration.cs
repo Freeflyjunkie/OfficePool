@@ -1,12 +1,14 @@
+
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Migrations;
+using System.Linq;
 using System.Collections.Generic;
 using OfficePool.Domain;
-
 namespace OfficePool.Repository.Migrations
+
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+
 
     internal sealed class Configuration : DbMigrationsConfiguration<OfficePool.Repository.OfficePoolContext>
     {

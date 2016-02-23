@@ -11,6 +11,7 @@ namespace OfficePool.Repository
     public class OfficePoolContext : DbContext
     {
         public OfficePoolContext()
+            : base("OfficePoolContext")
         {
 
         }
